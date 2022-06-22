@@ -44,7 +44,7 @@ You can customize you configmap, In above used configmap we only fetching the lo
 
 Here we are using wildcard to fetch logs from all the namespaces.
 
-If you want logs from all the namespaces except a few namespaces and you want to exclude those few namespaces. For that, you need to add an Exclude_path option in the Fluent-Bit configuration file. 
+If you want logs from all the namespaces except a few namespaces and you want to exclude those few namespaces. For that, you need to add an 'Exclude_path' option in the Fluent-Bit configuration file. 
 
 One can pass multiple namespaces names separated by a comma. For example, as shown below, We can exclude logs of multiple namespaces by giving their path separated by a comma in the Fluent-Bit configuration file (this way basically we can selectively exclude namespaces whose logs we don't want fluent-bit to collect and pass them).
 
